@@ -18,7 +18,7 @@ Parameters:
 
     Type: String
 
-    Default: BaseStack
+    Default: base-stack1
 
   KeyPairName:
 
