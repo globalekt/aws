@@ -28,7 +28,7 @@ Parameters:
 
     Type: AWS::EC2::AvailabilityZone::Name
 
-    Default: us-east-1
+    Default: us-east-1a
 
   # CIDR of new subnet within this VPC
 
