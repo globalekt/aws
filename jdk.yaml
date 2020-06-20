@@ -18,7 +18,7 @@ Parameters:
 
     Type: String
 
-    Default: base-stack1
+    Default: base-vpc
 
   KeyPairName:
 
