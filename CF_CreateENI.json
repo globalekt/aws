@@ -7,7 +7,7 @@
       "Default": "GRHV"
     },
     "UserID" : {
-      "Type" : "String"
+      "Type" : "String",
 	  "Default": "cloud_user"
     },
     "ENIName" : {
