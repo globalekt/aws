@@ -4,7 +4,7 @@
   "Parameters" : {
     "AppID" : {
       "Type" : "String",
-      "Default": "GRHV"
+      "Default": "Base"
     },
     "UserID" : {
       "Type" : "String",
