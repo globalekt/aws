@@ -1,0 +1,11 @@
+"myENI" : {
+   "Type" : "AWS::EC2::NetworkInterface",
+   "Properties" : {
+      "Tags": [{"Key":"Name","Value":"NewENI"}],
+      "Description": "A nice description.",
+      "SourceDestCheck": "false",
+      "GroupSet": ["sg-0cf4bd647796a7fb1"],
+      "SubnetId": "subnet-07d948688737c52be",
+      "PrivateIpAddress": "10.0.1.28"
+   }
+}
