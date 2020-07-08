@@ -5,7 +5,7 @@
   "myENI" : {
    "Type" : "AWS::EC2::NetworkInterface",
    "Properties" : {
-      "Tags": [{"Key":"Role","Value":"base_uat"}],
+      "Tags": [{"Key":"Name","Value":"base_uat"}],
       "Description": "A nice description.",
       "SourceDestCheck": "false",
       "GroupSet": ["sg-043bcfef5581442f2","sg-018b30d61a91691e6"],
