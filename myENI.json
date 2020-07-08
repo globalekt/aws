@@ -1,11 +1,11 @@
 {
   "AWSTemplateFormatVersion":"2010-09-09",
-  "Description":"This template will create new ENI and assign that ENI to existing EC2",
+  "Description":"This template will create new ENI,
   "Resources": {
   "myENI" : {
    "Type" : "AWS::EC2::NetworkInterface",
    "Properties" : {
-      "Tags": [{"Key":"foo","Value":"bar"}],
+      "Tags": [{"Key":"Role","Value":"base_uat"}],
       "Description": "A nice description.",
       "SourceDestCheck": "false",
       "GroupSet": ["sg-043bcfef5581442f2","sg-018b30d61a91691e6"],
