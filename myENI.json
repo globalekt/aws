@@ -1,6 +1,6 @@
 {
   "AWSTemplateFormatVersion":"2010-09-09",
-  "Description":"This template will create new ENI,
+  "Description":"This template will create new ENI",
   "Resources": {
   "myENI" : {
    "Type" : "AWS::EC2::NetworkInterface",
